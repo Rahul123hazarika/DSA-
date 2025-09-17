@@ -5,6 +5,9 @@ For using Arrays.sort() , we have to import java.util.Arrays or java.util.*
  . Since it's not a good time complexity compared to this, whenever we get an unsorted array, we generally do a linear search, O(n).
 */
 
+import java.util.*;
+
+//BINARY SEARCH USING ITERATIVE METHOD(since here loop used)
 class Searching {
     public static int binarySearch(int arr[], int key) {
         int low = 0;
@@ -28,5 +31,51 @@ class Searching {
         Arrays.sort(a);  // wee need to short the array elements when elements are in unsorted order , because binary sort can only work with sorted array.
         int key = 2;
         System.out.println(binarySearch(a, key));
+    }
+}
+
+
+// BINARY SEARCH USING RECURSIVE METHOD
+
+
+class Searchingg {
+    public static int binarySearch(int arr[], int low, int high, int key) {
+        if (low > high) {
+            return -1;  // base case
+        }
+
+        int mid = (low + high) / 2;
+
+        if (arr[mid] == key) {
+            return mid;
+        } else if (arr[mid] < key) {
+            return binarySearch(arr, mid + 1, high, key);  // recursive call
+        } else {
+            return binarySearch(arr, low, mid - 1, key);   // recursive call
+        }
+    }
+
+    public static void main(String[] args) {
+        int a[] = {1, 3, 6, 5, 2, 9, 10};
+        Arrays.sort(a);  
+        int key = 2;
+
+        System.out.println("Searching for " + key);
+        int result = binarySearch(a, 0, a.length - 1, key);
+
+        if (result == -1)
+            System.out.println("Element not found");
+        else
+            System.out.println("Element found at index: " + result);
+    }
+}
+
+//BINARY SEARCH USING INBUILD METHOD
+class Searchinggg{
+    public static void main(String[]args){
+        int a[]={1,3,6,5,2,9,10};
+        Arrays.sort(a);
+        int key=2;
+        System.out.println(Arrays.binarySearch(a,key));
     }
 }
