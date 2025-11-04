@@ -22,9 +22,11 @@ Declaration of Array:
 
 
 Initialization of Array:
-       int arr[] = { 1, 2, 3, 4, 5 };
-       char arr[] = { 'a', 'b', 'c', 'd', 'e' };
-       float arr[] = { 1.4f, 2.0f, 24f, 5.0f, 0.0f };
+
+
+       //int arr[] = { 1, 2, 3, 4, 5 };
+       //char arr[] = { 'a', 'b', 'c', 'd', 'e' };
+       //float arr[] = { 1.4f, 2.0f, 24f, 5.0f, 0.0f };
 
 TYPES OF ARRAY:
     1) Fixed size: We cannot alter or update the size of this array
