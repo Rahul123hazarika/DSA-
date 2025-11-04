@@ -9,6 +9,8 @@ Basic Terminologies of Array:
      Array Index: Elements are accessed by their indexes. Indexes in most programming languages start from 0.
 
 Declaration of Array:
+
+
              // This array will store integer-type elements
               int arr[];    
             // This array will store char-type elements
