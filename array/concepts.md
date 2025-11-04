@@ -1,24 +1,13 @@
   ARRAY USING JAVA:
-=====================================================================================================================================================================
-
-
 
 An array is a linear data structure where all elements are arranged sequentially. It is a collection of elements of the same data type stored at contiguous memory locations
 NOTE-1: It stores elements of the same data type
 NOTE-2: Stored at a contiguous memory location.
 
-
-
-
-=============================================================================================================================================================================
 Basic Terminologies of Array:
      Array Element: Elements are items stored in an array.
      Array Index: Elements are accessed by their indexes. Indexes in most programming languages start from 0.
 
-
-
-
-===========================================================================================================================================================================
 Declaration of Array:
              // This array will store integer-type elements
               int arr[];    
@@ -28,15 +17,12 @@ Declaration of Array:
              float arr[];
 
 
-=======================================================================================================================================================================
-
 
 Initialization of Array:
        int arr[] = { 1, 2, 3, 4, 5 };
        char arr[] = { 'a', 'b', 'c', 'd', 'e' };
        float arr[] = { 1.4f, 2.0f, 24f, 5.0f, 0.0f };
 
-================================================================================================================================================================================
 TYPES OF ARRAY:
     1) Fixed size: We cannot alter or update the size of this array
         // Fixed sized array examples
@@ -50,7 +36,6 @@ TYPES OF ARRAY:
                ArrayList<Integer> arr = new ArrayList<>();
 
 
-============================================================================================================================================================================
 
 
 
