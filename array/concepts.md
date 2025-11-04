@@ -27,13 +27,17 @@ Initialization of Array:
 
 TYPES OF ARRAY:
     1) Fixed size: We cannot alter or update the size of this array
+
+
         // Fixed sized array examples
             int[] arr1 = new int [5];
        // Another way 
        // initialization 
           int[] arr2 = {1, 2, 3, 4, 5};
 
-2)Dynamic size: The size of the array changes as per user requirements during execution of code so the coders do not have to worry about sizes. They can add and removed the                      elements as per the need.
+2)Dynamic size: The size of the array changes as per user requirements during execution of code so the coders do not have to worry about sizes. They can add and removed the elements as per the need.
+
+
                  // Dynamic Integer Array
                ArrayList<Integer> arr = new ArrayList<>();
 
