@@ -46,6 +46,44 @@ TYPES OF ARRAY:
 
 
 
+Types of Arrays on the basis of Dimensions:
+1. One-dimensional Array(1-D Array): You can imagine a 1d array as a row, where elements are stored one after another.
+     
+       public class OneDArrayExample {
+           public static void main(String[] args) {
+             int[] arr = {10, 20, 30, 40, 50};  // Declaration and initialization
+
+        System.out.println("Elements of 1D Array:");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println("Element at index " + i + ": " + arr[i]);
+           }
+         }
+       }
+
+
+
+2. Two-Dimensional Array(2-D Array): A 2-D  array contains 2 dimensions, so it can be considered an array of two-dimensional arrays
+      
+        public class TwoDArrayExample {
+             public static void main(String[] args) {
+                int[][] matrix = {
+                   {1, 2, 3},
+                   {4, 5, 6},
+                  {7, 8, 9}
+        };
+
+        System.out.println("Elements of 2D Array:");
+        for (int i = 0; i < matrix.length; i++) {          // rows
+            for (int j = 0; j < matrix[i].length; j++) {   // columns
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println(); // new line for each row
+          }
+         }
+       }
+
+
+
 
 
 
