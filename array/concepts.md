@@ -82,6 +82,11 @@ Types of Arrays on the basis of Dimensions:
          }
        }
 
+3. IT can have many dimensions.
+
+
+
+
 
 
 
