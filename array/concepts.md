@@ -1,8 +1,9 @@
   ARRAY USING JAVA:
-d
 An array is a linear data structure where all elements are arranged sequentially. It is a collection of elements of the same data type stored at contiguous memory locations
-NOTE-1: It stores elements of the same data type
-NOTE-2: Stored at a contiguous memory location.
+
+
+        //NOTE-1: It stores elements of the same data type
+        //NOTE-2: Stored at a contiguous memory location.
 
 Basic Terminologies of Array:
      Array Element: Elements are items stored in an array.
