@@ -1,3 +1,4 @@
+//QUESTION: Reversing an array means rearranging the elements such that the first element becomes the last, the second element becomes second last and so on.
 import java.util.Arrays;
 
 class reverse{
