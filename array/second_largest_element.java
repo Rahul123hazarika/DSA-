@@ -10,14 +10,14 @@ class count{
         int n=arr.length;
         //since we already sorted the array , so second last element will be second largest element
         for(int i=n-2; i>=0; i--){
-            // case1: if last element is not equal to second last then return second last one is the second largest element.
+            // CASE1: if last element is not equal to second last then return second last one is the second largest element.
             if(arr[i]!=arr[n-1]){
                 return arr[i]; 
             }
 
 
         }
-        // If no second largest element was found, return -1
+        //CASE2: If no second largest element was found, return -1
         return -1;
     }
     public static void main(String args[]){
