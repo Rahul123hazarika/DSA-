@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class deleteAtanyPosition{
+public class deleteAtanyPosition{
     public static void main(String []args){
           int arr[]={1,2,3,4,5,6};
           System.out.println("enter index to delete element");
