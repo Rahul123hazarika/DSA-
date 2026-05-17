@@ -1,3 +1,4 @@
+//rotate an array by 2nd position towards clock wise.
 import java.util.Arrays;
 
 class rotation{
