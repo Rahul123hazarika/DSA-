@@ -1,3 +1,5 @@
+//Two Sum - Pair with given Sum
+//Given an array arr[] of n integers and a target value, check if there exists a pair whose sum equals the target. 
 class Main{
     static boolean twoSum(int arr[], int target){
         int n=arr.length;
