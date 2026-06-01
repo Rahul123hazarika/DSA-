@@ -1,1 +1,1 @@
-
+// Q. Pick two days from a price list — one to buy and one to sell , such that the selling day comes after the buying day and the profit is maximized. What is that maximum profit? Return 0 if no profit is achievable
