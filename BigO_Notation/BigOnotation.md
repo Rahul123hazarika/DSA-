@@ -48,7 +48,7 @@ public static int getFirst(int[] arr) {
 Even if the array has 10 elements or 10 million elements, we only access the first element. so time complexity is O(1) only.
 ### O(n) - Linear Time
 The algorithm grows directly with input size.
-```
+```java
 public static void printAll(int arr[]){
     for(int num:arr){
         System.out.print(num);
