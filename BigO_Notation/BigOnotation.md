@@ -46,4 +46,16 @@ public static int getFirst(int[] arr) {
 }
 ```
 Even if the array has 10 elements or 10 million elements, we only access the first element. so time complexity is O(1) only.
+### O(n) - Linear Time
+The algorithm grows directly with input size.
+```
+public static void printAll(int arr[]){
+    for(int num:arr){
+        System.out.print(num);
+ }
+}
+```
+If there are 10 elements, the loop runs 10 times or if there are 1,000 elements, the loop runs 1,000 times.So Time complexity is O(n).
 
+### O(n²) - Quadratic Time
+Usually happens when we use nested loops.
