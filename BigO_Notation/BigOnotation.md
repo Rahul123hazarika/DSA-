@@ -29,3 +29,7 @@ Here also same  :
 System.out.println("Done");
 ```
 Here, the time complexity is the combination of linear time O(n) and constant time O(1), resulting in O(n + 1). Since Big-O notation ignores constant terms, the overall time complexity is O(n).
+
+## Big-O growth order -
+```
+O(1) < O(log n) < O(n) < O(n log n) < O(n^2) < O(n^3) < O(2^n) < O(n!)
