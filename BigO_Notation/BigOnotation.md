@@ -8,3 +8,24 @@ for (int i = 0; i < n; i++) {
 }
 ```
 This loop runs n times , so time complexity is O(n).
+
+## BigO ignores constant values 
+```java
+for(int i=0;i<n;i++){
+    System.out.print(i);
+}
+for(int j=0;j<n;j++){
+    System.out.println(j)
+}
+```
+this above code runs 2n times, but BigO ignores constant values. so finalized time complexity will be from O(2n) --> O(n).
+
+Here also same  :
+ ```java
+ for (int i = 0; i < n; i++) {
+    System.out.println(i);
+}
+
+System.out.println("Done");
+```
+Here, the time complexity is the combination of linear time O(n) and constant time O(1), resulting in O(n + 1). Since Big-O notation ignores constant terms, the overall time complexity is O(n).
