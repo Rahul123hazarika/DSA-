@@ -38,4 +38,12 @@ O(1) < O(log n) < O(n) < O(n log n) < O(n^2) < O(n^3) < O(2^n) < O(n!)
 
 ## Common Big-O complexities 
  
-### O(1)- constant
+### O(1)- constant time: 
+The algorithm takes the same amount of time regardless of input size.
+```java
+public static int getFirst(int[] arr) {
+    return arr[0];
+}
+```
+Even if the array has 10 elements or 10 million elements, we only access the first element. so time complexity is O(1) only.
+
