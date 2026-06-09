@@ -59,3 +59,13 @@ If there are 10 elements, the loop runs 10 times or if there are 1,000 elements,
 
 ### O(n²) - Quadratic Time
 Usually happens when we use nested loops.
+```
+public static void printPairs(int[] arr) {
+    for (int i = 0; i < arr.length; i++) {
+        for (int j = 0; j < arr.length; j++) {
+            System.out.println(arr[i] + " " + arr[j]);
+        }
+    }
+}
+```
+### 
