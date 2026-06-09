@@ -34,6 +34,8 @@ Here, the time complexity is the combination of linear time O(n) and constant ti
 ```
 O(1) < O(log n) < O(n) < O(n log n) < O(n^2) < O(n^3) < O(2^n) < O(n!)
 
+```
+
 ## Common Big-O complexities 
  
 ### O(1)- constant
