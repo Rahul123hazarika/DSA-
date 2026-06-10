@@ -68,4 +68,25 @@ public static void printPairs(int[] arr) {
     }
 }
 ```
-### 
+If n = 100, total operations are:
+100 × 100 = 10,000, then time complexity is O(n^2)
+
+### O(log n) - Logarithmic Time
+Usually happens when the input size is divided by 2 again and again.
+```java
+public static int binarySearch(int[] arr, int target) {
+    int left = 0;
+    int right = arr.length - 1;
+
+    while (left <= right) {
+        int mid = (left + right) / 2;
+
+        if (arr[mid] == target) return mid;
+        else if (arr[mid] < target) left = mid + 1;
+        else right = mid - 1;
+    }
+
+    return -1;
+}
+
+```
