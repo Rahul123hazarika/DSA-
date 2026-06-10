@@ -90,3 +90,12 @@ public static int binarySearch(int[] arr, int target) {
 }
 
 ```
+Every step removes half of the array.so time Complexity:O(log n). Usually this happens in efficient sorting algorithms.
+Examples:
+Merge Sort
+Heap Sort
+Quick Sort average case
+
+### O(2ⁿ) - Exponential Time
+Usually happens in recursive problems where each call creates two more calls.
+
