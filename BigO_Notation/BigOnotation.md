@@ -90,12 +90,29 @@ public static int binarySearch(int[] arr, int target) {
 }
 
 ```
-Every step removes half of the array.so time Complexity:O(log n). Usually this happens in efficient sorting algorithms.
+Every step removes half of the array.so time Complexity:O(log n). Usually this happens in efficient sorting algorithms.so time complexity is O(log n).
+### O(n log n)
+Usually found in efficient sorting algorithms.
 Examples:
 Merge Sort
 Heap Sort
 Quick Sort average case
 
+Because:
+We divide the array repeatedly: log n
+At each level, we process n elements.
+so the time complexity is O(n log n).
+
 ### O(2ⁿ) - Exponential Time
 Usually happens in recursive problems where each call creates two more calls.
+```java
+public static int fibonacci(int n) {
+    if (n <= 1) return n;
+
+    return fibonacci(n - 1) + fibonacci(n - 2);
+}
+```
+This creates many repeated calls. so it's time complexity is O($2^n)
+
+
 
