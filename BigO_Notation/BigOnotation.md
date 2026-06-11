@@ -113,7 +113,7 @@ public static int fibonacci(int n) {
 }
 ```
 This creates many repeated calls. so it's time complexity is O(2ⁿ)
-===
+$ 2^5
 
 
 
