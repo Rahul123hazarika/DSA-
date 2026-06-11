@@ -112,8 +112,11 @@ public static int fibonacci(int n) {
     return fibonacci(n - 1) + fibonacci(n - 2);
 }
 ```
-This creates many repeated calls. so it's time complexity is O(2ⁿ)
-$ 2^5
+This creates many repeated calls. so it's time complexity is O(2ⁿ).
+
+
+
+
 
 
 
