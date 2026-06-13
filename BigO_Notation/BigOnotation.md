@@ -114,6 +114,15 @@ public static int fibonacci(int n) {
 ```
 This creates many repeated calls. so it's time complexity is O(2ⁿ).
 
+| Complexity | Meaning             | Operations (n = 10) |
+|------------|---------------------|---------------------|
+| O(1)       | Constant            | 1                   |
+| O(log n)   | Divide & conquer    | ~3                  |
+| O(n)       | Linear              | 10                  |
+| O(n log n) | Efficient sorting   | ~30                 |
+| O(n²)      | Nested loops        | 100                 |
+| O(2ⁿ)      | Exponential         | 1024                |
+| O(n!)      | Factorial           | 3,628,800           |
 
 
 
