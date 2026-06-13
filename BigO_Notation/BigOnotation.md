@@ -177,7 +177,37 @@ public static int[][] createMatrix(int n) {
 }
 ```
 We create an n × n matrix.so space complexity is O(n²)
+## Best, Worst, and Average Case
 
+### Best Case
+The minimum time an algorithm can take.
+```java
+public static int linearSearch(int[] arr, int target) {
+    for (int i = 0; i < arr.length; i++) {
+        if (arr[i] == target) return i;
+    }
+
+    return -1;
+}
+```
+If the target is at the first index:
+Best Case = O(1)
+
+### Worst Case
+The maximum time an algorithm can take.
+In linear search, if the target is at the end or not present:
+Worst Case = O(n)
+
+### Average Case
+The expected time for a normal input.
+In linear search, the target may be somewhere in the middle.
+O(n)
+
+## What is the difference between Big O, Big Theta, and Big Omega?
+Big O (O) describes the upper bound - the worst-case growth rate.
+Big Omega (Ω) describes the lower bound - the best-case growth rate.
+Big Theta (Θ) describes the tight bound, meaning the algorithm's growth rate is bounded both above and below by the same function.
+In practice, Big O is most commonly used because we typically care about worst-case performance guarantees.
 
 
 
