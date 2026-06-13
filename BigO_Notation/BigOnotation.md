@@ -210,5 +210,45 @@ Big Theta (Θ) describes the tight bound, meaning the algorithm's growth rate is
 In practice, Big O is most commonly used because we typically care about worst-case performance guarantees.
 
 
+## Amortized Analysis
+Amortized analysis means calculating the average cost of operations over time.
 
+Some operations are usually cheap, but occasionally expensive.
+
+A common example is dynamic arrays.
+
+In Python, list.append() is usually:
+
+Output
+
+Copy
+O(1)
+But sometimes, when the internal array is full, Python creates a bigger array and copies all elements.
+
+That one operation may take:
+
+Output
+
+Copy
+O(n)
+But this expensive operation does not happen every time.
+
+So over many append operations, the average cost is still:
+
+Output
+
+Copy
+O(1) amortized
+Simple Example
+Imagine a bus.
+
+Most of the time, adding one passenger is quick.
+
+But sometimes, the bus becomes full and we need a bigger bus.
+
+Moving everyone to a bigger bus is expensive.
+
+But because it happens rarely, the average cost per passenger is still small.
+
+That is amortized analysis.
 
