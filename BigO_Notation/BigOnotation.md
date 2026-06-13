@@ -2,6 +2,8 @@
 
 Big O Notation is a way to describe the efficiency of an algorithm.It tells us how much time or memory an algorithm needs as the input size grows.If input size is n, Big O tells us how the algorithm behaves when n becomes very large.
 
+## TIME COMPLEXITY
+
 ```java
 for (int i = 0; i < n; i++) {
     System.out.println(i);
@@ -124,6 +126,57 @@ This creates many repeated calls. so it's time complexity is O(2ⁿ).
 | O(2ⁿ)      | Exponential         | 1024                |
 | O(n!)      | Factorial           | 3,628,800           |
 
+## SPACE COMPLEXITY
+### O(1) Space:
+```java
+public class Main
+{   public static int sumarray(int arr[]){
+    int total=0;
+    for(int i : arr){
+        
+        total+=i;
+    }
+    return total;
+    }
+	public static void main(String[] args) {
+	    int arr[]={1,2,3,4,5};
+		System.out.println("sum of the array is "+ sumarray(arr));
+	}
+}
+
+```
+We only use one extra variable: the variable is total.So the space complexity is O(1).
+
+### O(n) Space:
+```java
+public static int[] copyArray(int[] arr) {
+    List<Integer> result = new ArrayList<>();
+
+    for (int num : arr) {
+        result.add(num);
+    }
+
+    return result.stream().mapToInt(Integer::intValue).toArray();
+}
+```
+We create a new array of size n
+so space complexity for this is  O(n).
+
+### O(n²) Space
+```java
+public static int[][] createMatrix(int n) {
+    int[][] matrix = new int[n][n];
+
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            matrix[i][j] = 0;
+        }
+    }
+
+    return matrix;
+}
+```
+We create an n × n matrix.so space complexity is O(n²)
 
 
 
