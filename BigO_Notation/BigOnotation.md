@@ -239,3 +239,47 @@ But because it happens rarely, the average cost per passenger is still small.
 
 That is amortized analysis.
 
+###  Recurrence Relations
+Recurrence relations are used to describe recursive algorithms.
+A recurrence tells us how the time of a problem depends on smaller subproblems.
+```java
+public static int[] mergeSort(int[] arr) {
+    if (arr.length <= 1) return arr;
+
+    int mid = arr.length / 2;
+
+    int[] left = mergeSort(Arrays.copyOfRange(arr, 0, mid));
+    int[] right = mergeSort(Arrays.copyOfRange(arr, mid, arr.length));
+
+    return merge(left, right);
+}
+```
+Merge Sort divides the array into two halves.
+Then it merges them in linear time.
+The recurrence is:
+T(n) = 2T(n/2) + O(n)
+Meaning:2T(n/2),We solve two subproblems of size n/2.
+O(n),We merge the results.
+Final complexity:
+O(n log n)
+
+## Master Theorem
+Master Theorem is a shortcut to solve recurrence relations.It is useful for divide-and-conquer algorithms.
+General form:
+```
+T(n) = aT(n/b) + O(n^d)
+```
+where
+a = number of subproblems
+b = factor by which input size is divided
+d = power of work done outside recursion
+Ex:
+Binary Search recurrence:
+```
+T(n) = T(n/2) + O(1)
+```
+here
+a = 1
+b = 2
+d = 0
+so complexity is O(log n).
