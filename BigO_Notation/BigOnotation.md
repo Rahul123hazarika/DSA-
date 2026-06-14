@@ -270,8 +270,8 @@ General form:
 T(n) = aT(n/b) + O(n^d)
 ```
 where
-a = number of subproblems
-b = factor by which input size is divided
+a = number of subproblems,
+b = factor by which input size is divided,
 d = power of work done outside recursion
 Ex:
 Binary Search recurrence:
@@ -279,7 +279,7 @@ Binary Search recurrence:
 T(n) = T(n/2) + O(1)
 ```
 here
-a = 1
-b = 2
-d = 0
+a = 1,
+b = 2,
+d = 0,
 so complexity is O(log n).
