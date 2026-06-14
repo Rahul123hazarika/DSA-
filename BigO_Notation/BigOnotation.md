@@ -283,3 +283,17 @@ a = 1,
 b = 2,
 d = 0,
 so complexity is O(log n).
+
+##  Big O Cheat Sheet
+| Code Pattern | Time Complexity |
+|-------------|----------------|
+| Access array element | O(1) |
+| Single loop          | O(n) |
+| Two separate loops   | O(n) |
+| Nested loops         | O(n²) |
+| Loop dividing by 2   | O(log n) |
+| Sorting | O(n log n) |
+| Binary Search | O(log n) |
+| Merge Sort | O(n log n) |
+| Recursive Fibonacci | O(2ⁿ) |
+| Generate Permutations | O(n!) |
