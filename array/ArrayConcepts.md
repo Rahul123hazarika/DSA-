@@ -21,6 +21,50 @@ arr[4] = 50
    System.out.print(arr[2]);
 ``` 
 output: 4
+Time complexity : O(1)
+### 2.Update:
+```java
+int[] arr = {10, 20, 30};
+arr[1] = 99;
+System.out.println(Arrays.toString(arr));
+
+```
+output: [10,99,30]
+
+### 3.Traversal
+
+```java
+int arr[]={2, 34,4,5};
+for(int num:arr){
+System.out.println(num);
+}
+
+```
+Time complexity : O(n)
+### 4. Search:
+```java
+public static int search(int[] arr, int target) {
+    for (int i = 0; i < arr.length; i++) {
+        if (arr[i] == target) return i;
+    }
+    return -1;
+}
+
+```
+Time complexity is O(n).
+
+### 5.Insert
+```java
+ArrayList<Integer>arr=new ArrayList<>(Arrays.asList(10,20,30));
+arr.add(40);
+```
+### 6.Delete
+```java
+ArrayList<Integer> arr = new ArrayList<>(Arrays.asList(10, 20, 30));
+arr.remove(arr.size() - 1);
+```
+
+
 
 
 
