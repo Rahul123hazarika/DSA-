@@ -14,6 +14,13 @@ arr[0] = 10
 arr[1] = 20
 arr[4] = 50
 ```
-### Why do we need Arrays?
+## Basic Array Operations
+### 1. Access:
+```java
+   int arr[]={1,2,4,5,6};
+   System.out.print(arr[2]);
+``` 
+output: 4
+
 
 
