@@ -92,34 +92,34 @@ Most array problems are solved using patterns.
 9. Kadane's Algorithm
 10. Binary Search
 ```
-Traversal
+### Traversal
 Visit each element of a data structure (array, list, tree, graph) in a defined order to read or process values. Used for searching, counting, building results, and as the base step in many algorithms.
 
-In-place modification
+### In-place modification
 Transform the input using only constant extra space by modifying elements directly (e.g., reversing, removing duplicates, swapping). Saves memory and often improves performance when original input need not be preserved.
 
-Two Pointers
+### Two Pointers
 Use two indices moving through a sequence (same or opposite directions) to find pairs, partition, or reduce complexity from O(n^2) to O(n). Common for sorted arrays, linked lists, and window boundary management.
 
-Prefix Sum
+### Prefix Sum
 Precompute cumulative sums in an array so range-sum queries and some condition checks become O(1) after O(n) preprocessing. Useful for subarray sums, difference techniques, and converting repeated sums into constant-time lookups.
 
-Sliding Window
+### Sliding Window
 Maintain a variable-size or fixed-size window over a sequence and update its value incrementally to solve subarray substring problems in O(n). Ideal for max/min sum, longest substring with constraints, and consecutive-range checks.
 
-Hash Map Counting
+### Hash Map Counting
 Use a hash map to count frequencies or store element-to-index mappings for O(1) average lookups. Enables quick detection of complements, duplicates, and frequency-based conditions.
 
-Sorting
+### Sorting
 Reorder elements by a defined order to simplify later operations (binary search, two-pointer, grouping). Sorting often changes complexity trade-offs but unlocks efficient patterns and deterministic outputs.
 
-Greedy
+### Greedy
 Build a solution step-by-step by choosing the locally optimal choice at each step, hoping to reach a global optimum. Fast and simple when problem has the greedy-choice property; otherwise requires proof or counterexamples.
 
-Kadane's Algorithm
+### Kadane's Algorithm
 Linear-time method to find the maximum subarray sum by tracking the best sum ending at the current position and the overall best. Extremely efficient for contiguous subarray maximum sum problems.
 
-Binary Search
+### Binary Search
 Repeatedly halve a sorted search space to find a target or threshold in O(log n) time. Applicable on arrays, monotonic functions, and answer-space searches (parametric search).
 
 
