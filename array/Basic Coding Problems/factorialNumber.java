@@ -1,0 +1,16 @@
+class factorialNumber{
+
+    static int factorial(int n)
+    {
+        // Calculating factorial of number
+        if (n == 0 || n == 1)
+            return 1;
+        return n * factorial(n - 1);
+    }
+
+    public static void main(String[] args)
+    {
+        int num = 5;
+        System.out.println(factorial(num));
+    }
+}
