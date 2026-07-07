@@ -30,3 +30,33 @@ Node:
 | Extra memory         | Less                   | More (because of pointers)           |
 | Cache friendly       | Yes                    | Usually no                           |
 ----------------------------------------------------------------------------------------
+
+## Types of Linked List
+### 1.Singly Linked List
+Each node points only to the next node.
+```
+10 → 20 → 30 → None
+```
+Node contains:
+```
+value
+next
+```
+## 2.Doubly Linked List
+Each node points to both previous and next nodes.
+```None ← 10 ⇄ 20 ⇄ 30 → None```
+Node contains:
+```
+value
+prev
+next
+```
+### 3. Circular Linked List
+The last node points back to the first node.
+```
+10 → 20 → 30
+↑         ↓
+← ← ← ← ←
+```
+There is no None at the end.
+Circular linked lists are useful in round-robin style problems.
