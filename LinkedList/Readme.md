@@ -63,4 +63,4 @@ Circular linked lists are useful in round-robin style problems.
 ## Linked List Operations
 ### Traversal:
 Traversal means visiting each node one by one.
-[Click here to view linkedlist traversal code ](LinkedListTraveral.java)
+[Click here to view linkedlist traversal code ] (LinkedListTraversal.java)
