@@ -75,3 +75,12 @@ search an element in a linkedlist.
 Time Complexity: O(n)
 Space Complexity: O(1)
 ```
+## 3.Insert at Beginning
+Insert at the front of a linked list
+[Click here to view insertion of a node at first ](InsertAtFront.java)
+```
+Time Complexity: O(1)
+Space Complexity: O(1)
+```
+## 4 Insert at End
+
