@@ -61,6 +61,14 @@ The last node points back to the first node.
 There is no None at the end.
 Circular linked lists are useful in round-robin style problems.
 ## Linked List Operations
-### Traversal:
+### 1.Traversal:
 Traversal means visiting each node one by one.
 [Click here to view linkedlist traversal code ](LinkedListTraversal.java)
+```
+Time Complexity: O(n)
+Space Complexity: O(1)
+```
+### 2.Search
+search an element in a linkedlist. 
+[Click here to view linkedlist searching code ]()
+
