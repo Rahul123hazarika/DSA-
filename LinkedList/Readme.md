@@ -71,4 +71,7 @@ Space Complexity: O(1)
 ### 2.Search
 search an element in a linkedlist. 
 [Click here to view linkedlist searching code ](SearchingElement.java)
-
+```
+Time Complexity: O(n)
+Space Complexity: O(1)
+```
