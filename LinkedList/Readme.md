@@ -82,5 +82,7 @@ Insert at the front of a linked list
 Time Complexity: O(1)
 Space Complexity: O(1)
 ```
-## 4 Insert at End
+### 4 Insert at End
 [click here to view insert at the end](InsertAtEnd.java)
+### 5.Delete a node
+[click here to view delete a node code ](DeleteNode.java)
