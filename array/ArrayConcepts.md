@@ -124,16 +124,16 @@ Repeatedly halve a sorted search space to find a target or threshold in O(log n)
 
 
 ##  How to Recognize a Problem is actually an array problem
-Find max/min
-Find duplicate
-Find missing number
-Move elements
-Remove elements in-place
-Rotate array
-Find subarray
-Find pair
-Find product/sum
-Count frequency
+Find max/min,
+Find duplicate,
+Find missing number,
+Move elements,
+Remove elements in-place,
+Rotate array ,
+Find subarray,
+Find pair,
+Find product/sum,
+Count frequency,
 Find increasing sequence
 
 
