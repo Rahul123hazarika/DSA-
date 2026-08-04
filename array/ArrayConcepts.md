@@ -123,4 +123,19 @@ Linear-time method to find the maximum subarray sum by tracking the best sum end
 Repeatedly halve a sorted search space to find a target or threshold in O(log n) time. Applicable on arrays, monotonic functions, and answer-space searches (parametric search).
 
 
+##  How to Recognize a Problem is actually an array problem
+Find max/min
+Find duplicate
+Find missing number
+Move elements
+Remove elements in-place
+Rotate array
+Find subarray
+Find pair
+Find product/sum
+Count frequency
+Find increasing sequence
+
+
+
 
