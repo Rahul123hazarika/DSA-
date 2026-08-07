@@ -1,4 +1,5 @@
 // check the number is armstrong number or not ?
+// An Armstrong number (also called a narcissistic number) is a number that equals the sum of its own digits,where each digit is raised to the power of the total number of digits
 import java.util.Scanner;
 class ArmstrongNumber{
     public static boolean isArmstrong(int num){
