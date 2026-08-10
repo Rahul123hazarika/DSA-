@@ -136,6 +136,34 @@ Find product/sum,
 Count frequency,
 Find increasing sequence
 ```
+## Array Problems
+
+### Use when:
+```
+- Data is stored in order
+- Need indexing
+- Need traversal
+- Need in-place modification
+- Need subarray or subsequence
+- Need min/max/count
+
+Common patterns:
+- Traversal
+- Two Pointers
+- Prefix Sum
+- Sliding Window
+- Hash Map
+- Sorting
+- Greedy
+- Kadane's Algorithm
+
+Common complexities:
+- Access: O(1)
+- Traverse: O(n)
+- Nested loops: O(n²)
+- Sort + process: O(n log n)
+- Binary search on sorted array: O(log n)
+```
 
 
 
