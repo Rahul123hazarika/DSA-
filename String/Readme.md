@@ -17,3 +17,11 @@ Spaces
 Symbols
 Special characters
 ```
+## String Concatenation :
+String concatenation in Java is the operation of joining two or more strings together to form a brand-new string.
+```java
+String firstName = "John";
+String lastName = "Doe";
+String fullName = firstName + " " + lastName; 
+System.out.println(fullName); // Output: John Doe
+```
