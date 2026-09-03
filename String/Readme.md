@@ -25,3 +25,12 @@ String lastName = "Doe";
 String fullName = firstName + " " + lastName; 
 System.out.println(fullName); // Output: John Doe
 ```
+## Comparison of Pattern Matching Algorithms
+
+| **Algorithm**   | **Time Complexity** | **Best For**                                  |
+| --------------- | ------------------- | --------------------------------------------- |
+| **Naive**       | `O(nm)`             | Small inputs                                  |
+| **KMP**         | `O(n + m)`          | Deterministic exact matching                  |
+| **Rabin-Karp**  | Expected `O(n + m)` | Hashing and matching many patterns/substrings |
+| **Z Algorithm** | `O(n + m)`          | Prefix-heavy matching                         |
+
