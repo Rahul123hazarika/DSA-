@@ -34,3 +34,15 @@ System.out.println(fullName); // Output: John Doe
 | **Rabin-Karp**  | Expected `O(n + m)` | Hashing and matching many patterns/substrings |
 | **Z Algorithm** | `O(n + m)`          | Prefix-heavy matching                         |
 
+## String Operations Complexity
+| **Operation**                  | **Time Complexity** |
+| ------------------------------ | ------------------- |
+| Access character by index      | O(1)                |
+| Traverse string                | O(n)                |
+| Compare two strings            | O(n)                |
+| Search substring naively       | O(n × m)             |
+| Create substring               | O(k)                |
+| Concatenate strings repeatedly | O(n²)               |
+| Convert string to list         | O(n)                |
+| Sort characters                | O(n log n)          |
+
