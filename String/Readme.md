@@ -46,3 +46,17 @@ System.out.println(fullName); // Output: John Doe
 | Convert string to list         | O(n)                |
 | Sort characters                | O(n log n)          |
 
+```
+1. Character traversal
+2. Two pointers
+3. Frequency counting
+4. Hash map
+5. Sliding window
+6. Stack
+7. Sorting
+8. String builder/list
+9. Prefix/suffix comparison
+10. Dynamic programming
+11. Trie
+12. KMP / advanced pattern matching
+```
