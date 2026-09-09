@@ -46,6 +46,7 @@ System.out.println(fullName); // Output: John Doe
 | Convert string to list         | O(n)                |
 | Sort characters                | O(n log n)          |
 
+## Common String Patterns
 ```
 1. Character traversal
 2. Two pointers
